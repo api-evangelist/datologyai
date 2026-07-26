@@ -1,8 +1,26 @@
 aid: datologyai
 name: DatologyAI
-description: 'DatologyAI is a company surfaced as a portfolio company of amplify-partners, felicis and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai-ml. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'DatologyAI is a data curation and optimization platform that automatically
+  identifies, prioritizes, and curates training data at petabyte scale so teams can
+  train machine learning and foundation models that are better, faster, and smaller.
+  Founded on the principle that "models are what they eat," its research-driven pipeline
+  improves model quality while cutting compute cost and training time, and is used
+  by AI labs and enterprises building frontier open models. The company is venture-backed
+  by Amplify Partners and Felicis. DatologyAI operates as an enterprise, contact-sales
+  service and does not currently publish a public developer API, SDKs, or documentation
+  portal.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.datologyai.com/api/media/file/open_graph-1200x630.png
 url: https://raw.githubusercontent.com/api-evangelist/datologyai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ai Ml
+- Data Curation
+- Machine Learning
+- Training Data
+- Foundation Models
+- Data Optimization
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://datologyai.com
+- type: Blog
+  url: https://datologyai.com/blog
+- type: Support
+  url: https://datologyai.com/contact
+- type: TermsOfService
+  url: https://datologyai.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://datologyai.com/privacy-policy
+- type: DomainSecurity
+  url: security/datologyai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
