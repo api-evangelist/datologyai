@@ -47,7 +47,7 @@ tags:
 - Company
 - Ai Ml
 - Data Curation
-- Machine-Learning
+- Machine Learning
 - Training Data
 - Foundation Models
 - Data Optimization
@@ -61,6 +61,7 @@ tags_raw:
 - Foundation Models
 - Data Optimization
 - Artificial Intelligence
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
