@@ -2,6 +2,7 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://aws.amazon.com/marketplace/
+- hugging-face/integrations/hugging-face-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -19,3 +20,34 @@ edges:
   seller_name: DatologyAI
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: Hugging Face (hugging-face-hub)
+  partner: hugging-face
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: hugging-face-hub
+  evidence: https://huggingface.co/DatologyAI
+  mirror_of: hugging-face/integrations/hugging-face-integration-edges.yml
+  apps:
+  - DatologyAI/DatBench
+  - DatologyAI/DatBench-Full
+  - DatologyAI/mmlu-freeform-rewrites
+  - DatologyAI/bbh-freeform-rewrites
+  - DatologyAI/gpqa-freeform-rewrites
+  - DatologyAI/agieval-freeform-rewrites
+  - DatologyAI/arc-challenge-freeform-rewrites
+  - DatologyAI/siqa-freeform-rewrites
+  - DatologyAI/retr-opt-vit-b-32
+  - DatologyAI/luxical-one
+  - DatologyAI/cls-opt-vit-b-32
+  listing_count: 2
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Hugging Face Hub datasets
+  badges:
+  - Verified publisher (Hugging Face verified organisation)
+source:
+- hugging-face/integrations/hugging-face-integration-edges.yml
